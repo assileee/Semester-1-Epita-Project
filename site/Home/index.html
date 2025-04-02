@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container py-5">
+    <div class="loader d-none"> 
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+    <h1>Welcome, Stéphanie ! </h1>
+    <div class="row my-4 charter">
+      <div class="col-md-6 chart">
+        <div class="chart-container" style="position: relative; height:40vh;">
+          <canvas id="myPieChart"></canvas>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2>Active Populations</h2>
+        <ul class="list-group-population">
+         
+        </ul>
+      </div>
+    </div>
+    
+    <div class="row charter">
+      <div class="col-md-6 bar-chart">
+        <p>Overall attendance chart</p>
+        <div class="chart-container" style="position: relative; height:40vh;">
+          <canvas id="horizontalBarChart"></canvas>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2>Overall Attendance</h2>
+        <ul class="list-group-attendance">
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <p>Website last generation: 10th January 2023</p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

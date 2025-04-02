@@ -1,0 +1,41 @@
+
+  .header {
+    background-color: #e4eef8;
+    border-bottom: 1px solid #435dbc;
+    padding: 16px;
+  }
+  .table-responsive {
+    margin-top: 20px;
+  }
+  .table-title {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  .last-update {
+    font-size: 0.8em;
+    text-align: right;
+    margin-top: 20px;
+  }
+  body, h1, h2, h3, p, li { 
+    font-family: 'Open Sans', sans-serif;
+  }
+  .loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1050; 
+  }
+
+  .visually-hidden{
+    visibility: hidden;
+  }
+
+  .hover{
+    cursor: pointer;
+  }
